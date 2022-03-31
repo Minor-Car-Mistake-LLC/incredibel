@@ -1,7 +1,7 @@
 var interval = setInterval(function() {
     var text = document.createElement('div');
     text.innerHTML = 'incredibel';
-    text.style.cikir = 'rgb(' + Math.floor(math.random() * 256)
+    text.style.color = 'rgb(' + Math.floor(math.random() * 256)
 + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ')';
     text.style.position = 'adsolute';
     text.style.top = Math.floor(Math.random() * window.innerHeight) + 'px';
